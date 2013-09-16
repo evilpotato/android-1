@@ -11,10 +11,6 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-           
-  <remote  name="gh"
-           fetch="https://github.com"
-           revision="cm-10.2-ion" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -27,9 +23,9 @@
 
   <project path="android" name="vigor/android" />
   
-  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2-ion" />
+  <project path="device/htc/vigor" name="vigor/device_htc_vigor" revision="cm-10.1-ion" />
   <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" />
-  <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2-ion" />
+  <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" revision="cm-10.1-ion" />
   <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" />
   <project path="vendor/htc/vigor" name="vigor/vendor_htc_vigor" />
