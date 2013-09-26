@@ -22,7 +22,7 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="carbon" revision="jb3" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="carbon" revision="jb3" />
   <project path="device/samsung/qcomm-common" name="android_device_samsung_qcomm-common" remote="carbon" revision="jb3" />
-  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" remote="cm" groups="pdk" />
+  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
